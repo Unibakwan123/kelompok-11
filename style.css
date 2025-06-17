@@ -1,0 +1,79 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+h1 {
+  background-color: #2f86a6;
+  color: white;
+  padding: 20px 0;
+  margin: 0;
+}
+
+.controls {
+  margin: 20px;
+}
+
+input, button {
+  padding: 10px;
+  margin: 5px;
+  font-size: 16px;
+}
+
+#map {
+  height: 500px;
+  width: 100%;
+}
+
+#results {
+  margin: 20px;
+  text-align: left;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#results ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+#results li {
+  padding: 8px;
+  border-bottom: 1px solid #ccc;
+  cursor: pointer;
+}
+
+#results li:hover {
+  background-color: #f0f0f0;
+}
+
+#allHospitals {
+  margin: 20px auto;
+  max-width: 600px;
+  text-align: left;
+}
+
+#allHospitals ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#allHospitals li {
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+  cursor: pointer;
+}
+
+#allHospitals li:hover {
+  background-color: #f0f0f0;
+}
+
+
+
+
+
+
+

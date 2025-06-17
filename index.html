@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Rumah Sakit di Kota Jambi</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+</head>
+<body>
+  <h1>Rumah Sakit di Kota Jambi</h1>
+
+  <div class="controls">
+    <button onclick="findNearestHospitals()">Gunakan Lokasi Saya</button>
+    <input type="text" id="searchInput" placeholder="Cari nama rumah sakit..." />
+    <button onclick="searchHospital()">Cari</button>
+  </div>
+
+  <div id="map"></div>
+
+  <div id="results"></div>
+
+  <div id="allHospitals">
+    <h2>Daftar Seluruh Rumah Sakit di Kota Jambi</h2>
+    <ul id="hospitalList"></ul>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/gh/ubilabs/kd-tree-javascript@master/kdTree-min.js"></script>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
